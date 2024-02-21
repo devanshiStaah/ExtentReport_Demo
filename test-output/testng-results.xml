@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-09T12:32:25 IST" name="Default suite" finished-at="2024-02-09T12:32:28 IST" duration-ms="3415">
+    <groups>
+    </groups>
+    <test started-at="2024-02-09T12:32:25 IST" name="Default test" finished-at="2024-02-09T12:32:28 IST" duration-ms="3415">
+      <class name="Reports.swaglabs">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:23 IST" name="launchbrowser" finished-at="2024-02-09T12:32:25 IST" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:25 IST" name="login" finished-at="2024-02-09T12:32:27 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addTocart()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:27 IST" name="addTocart" finished-at="2024-02-09T12:32:27 IST" depends-on-methods="Reports.swaglabs.login" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTocart -->
+        <test-method signature="goTocart()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:27 IST" name="goTocart" finished-at="2024-02-09T12:32:28 IST" depends-on-methods="Reports.swaglabs.addTocart" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTocart -->
+        <test-method signature="removeTocart()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:28 IST" name="removeTocart" finished-at="2024-02-09T12:32:28 IST" depends-on-methods="Reports.swaglabs.goTocart" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTocart -->
+        <test-method signature="checkout()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:28 IST" name="checkout" finished-at="2024-02-09T12:32:28 IST" depends-on-methods="Reports.swaglabs.removeTocart" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="placeOrder()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:28 IST" name="placeOrder" finished-at="2024-02-09T12:32:28 IST" depends-on-methods="Reports.swaglabs.checkout" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Reports.swaglabs@48bb62]" started-at="2024-02-09T12:32:28 IST" name="closebrowser" finished-at="2024-02-09T12:32:29 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Reports.swaglabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
